@@ -32,9 +32,6 @@ lines that you cannot justify; commit authorship is recorded by Git itself.
    ctest --test-dir build/debug --output-on-failure
    ```
 
-   Tests are expected to terminate on their own. Do not add timeouts, watchdogs,
-   or "kill the process and call it a pass" logic; a hanging test is a defect and
-   must be diagnosed.
 
 3. Keep the public API strongly typed. New identities, generations, epochs,
    revisions, and external references must be distinct types; do not introduce
