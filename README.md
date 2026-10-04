@@ -1,10 +1,8 @@
 # Facility State Ledger
 
-**DCCP Tranche 1 — Canonical Facility State, repository 7 of 8.**
-
 A durable, provenance-preserving ledger of authoritative facility-state
 transitions: accepted observations, mutations, reconciliation events and
-generation changes. It is the append-oriented historical record that higher DCCP
+generation changes. It is the append-oriented historical record that higher facility
 control layers read to learn *what the facility was*, *which generation was
 authoritative*, and *who said so*.
 
